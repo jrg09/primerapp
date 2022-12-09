@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <App/> debe hacer match con el snapshot 1`] = `
+<div>
+  <header>
+    <h1>
+      Hola, Soy Jorge
+    </h1>
+    <div>
+      se repite: 
+      <b>
+        3
+      </b>
+      :
+      <span>
+        0
+        span 
+      </span>
+      <span>
+        1
+        span 
+      </span>
+      <span>
+        2
+        span 
+      </span>
+    </div>
+  </header>
+  <div
+    id="content"
+  >
+    <h1>
+      Content Section
+    </h1>
+    <p>
+      <code>
+        {"title":"jjj 🏎","msg":"jorge hola"}
+      </code>
+    </p>
+    <p>
+      <b>
+        jorge 
+        jorge hola
+      </b>
+    </p>
+    <p>
+      subtitulo: 
+    </p>
+    <h2>
+      Counter
+    </h2>
+    <h2>
+      Inicial: 
+      0
+    </h2>
+    <h3>
+      <span
+        data-testid="span-test"
+      >
+        0
+      </span>
+    </h3>
+    <button>
+      +1
+    </button>
+    <button>
+      -1
+    </button>
+    <button
+      aria-label="btn-reset"
+    >
+      reset
+    </button>
+  </div>
+  <footer>
+    footer
+  </footer>
+</div>
+`;
